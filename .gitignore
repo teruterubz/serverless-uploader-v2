@@ -1,0 +1,11 @@
+# Terraformが自動生成するファイルやディレクトリ
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# 環境ごとの設定ファイル (機密情報を含む可能性があるため)
+*.tfvars
+
+# Lambdaのデプロイ用に生成されるZIPファイル
+*.zip

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Serverless File Uploader</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <article>
+            <hgroup>
+                <h1>Serverless File Uploader</h1>
+                <h2>(Terraform & AWS)</h2>
+            </hgroup>
+            
+            <input type="file" id="fileInput">
+            <button type="button" id="uploadButton" aria-busy="false">アップロード開始</button>
+            
+            <div id="statusMessages">
+                <p>ファイルを選択してください。</p>
+            </div>
+            
+            <hr>
+            
+            <h2>アップロード済みファイル一覧</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">ファイル名</th>
+                  <th scope="col">ファイルサイズ</th>
+                  <th scope="col">アップロード日時</th>
+                </tr>
+              </thead>
+              <tbody id="fileListBody">
+                </tbody>
+            </table>
+        </article>
+    </main>
+    <script src="uploader.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    background-color: #f5f7fa;
+}
+
+main.container {
+    max-width: 960px;
+    margin-top: 3rem;
+}
+
+article {
+    padding: 2rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-radius: 0.75rem;
+}
+
+#statusMessages {
+    margin-top: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+    min-height: 50px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+}
