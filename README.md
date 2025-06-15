@@ -25,7 +25,7 @@
 
 ## アーキテクチャ図 (Architecture Diagram)
 
-![サーバーレスファイルアップローダー構成図](images/file_uploader_architecture.png) 
+![サーバーレスファイルアップローダー構成図](images/file_uploader_architecture.png)
 
 
 ## 処理フロー (Processing Flow)
