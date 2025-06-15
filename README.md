@@ -25,8 +25,8 @@
 
 ## アーキテクチャ図 (Architecture Diagram)
 
-![サーバーレスファイルアップローダー構成図](images/architecture.png) 
-*(注: `images/architecture.png` は、ご自身で作成した図のファイルパスに置き換えてください)*
+![サーバーレスファイルアップローダー構成図](images/file_uploader_architecture.png) 
+
 
 ## 処理フロー (Processing Flow)
 
